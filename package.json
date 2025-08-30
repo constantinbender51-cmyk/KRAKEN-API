@@ -7,8 +7,9 @@
     "utf8": "^3.0.0"
   },
   "main": "cfRestApiV3.js",
-  "start": "cfRestApiV3Examples.js",
+  
   "scripts": {
+    "start": "cfRestApiV3Examples.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
