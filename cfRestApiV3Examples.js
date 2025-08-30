@@ -21,7 +21,7 @@
 
 const cf = require('./cfRestApiV3')
 
-const baseUrl = 'https://www.cryptofacilities.com'
+const baseUrl = 'https://demo-futures.kraken.com'
 
 // api access variables are generated on your Account page under Settings -> API Keys
 const apiKey = 'dUHtGgl3c2mHz+R79StnIky7CUOxGty4jML8n0lY8puBA8pvznkUeR34'
