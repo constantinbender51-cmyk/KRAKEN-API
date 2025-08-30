@@ -9,7 +9,7 @@
   "main": "cfRestApiV3.js",
   
   "scripts": {
-    "start": "cfRestApiV3Examples.js",
+    "start": "node cfRestApiV3Examples.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
