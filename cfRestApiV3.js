@@ -451,7 +451,7 @@ class CfRestApiV3 {
   /**
    * Historical orders after a certain point in reverse chronological order.
    */
-  getHistoricalOrders(since = None) {
+  getHistoricalOrders(since = null) {
     return this._getHistoricalElements('orders', since)
   }
 
@@ -459,7 +459,7 @@ class CfRestApiV3 {
    * Recent orders in reverse chronological order.
    */
   getRecentOrders() {
-    return this.getHistoricalOrders(None)
+    return this.getHistoricalOrders(null)
   }
 
   /**
